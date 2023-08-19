@@ -1,0 +1,11 @@
+[package]
+name = "hyprland-wiki-tui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "0.27.0"
+md-to-tui = { git = "https://github.com/Phant80m/md-to-tui", version = "0.1.2" }
+ratatui = { version = "0.22.0", features = ["all-widgets"] }
